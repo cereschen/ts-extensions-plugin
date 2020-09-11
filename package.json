@@ -1,13 +1,20 @@
 {
   "name": "ts-extensions-plugin",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "find module Definitions in real path",
+  "keywords": ["typescript","ts","extension","definition"],
   "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -w"
   },
-  "author": "",
+  "homepage": "https://github.com/cereschen/ts-extensions-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cereschen/ts-extensions-plugin.git"
+  },
+  "author": "cereschen",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.0.2"
